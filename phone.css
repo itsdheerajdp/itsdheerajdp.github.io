@@ -1,0 +1,88 @@
+/* navbar */
+#navbar{
+    flex-direction: column;
+}
+#navbar::before{
+    width: 100%;
+}
+#navbar .head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#navbar .head ul li a{
+font-size: 0.8rem;
+margin: 0.5rem;
+font-family: 'Blaka', cursive;
+  
+}
+/* home */
+#home{
+   
+    flex-direction: column;
+    top: 0px;
+    width: 100%;
+}
+#home p{
+    margin-top: 0px;
+    font-size: 0.7rem;
+}
+#home h2{
+    margin-top: 0px;
+    font-size: 1.2rem;
+}
+#home::before{
+    height: 600px;
+}
+/* services */
+.services .blocks{
+    flex-direction: column;
+}
+#service .our{
+    top: 2rem;
+    color: black;
+    font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+}
+.services .blocks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.services .blocks #first{
+    width: 350px;
+    height: 380px;
+}
+.services .blocks #second{
+    width: 350px;
+    height: 380px;
+}
+.services .blocks #third{
+    width: 350px;
+    height: 380px;
+}
+/* client */
+#clients .client-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* contact us */
+.form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    
+}
+.form form .form-group textarea{
+    width: 250px;
+}
+.form form .form-group .num{
+    width: 250px;
+}
+/* footer */
+
+
